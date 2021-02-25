@@ -21,7 +21,7 @@
     <title>Power Room: A Fake Gym</title>
   </head>
   <body class="text-gray-800 antialiased">
-    <!--Navbar-->
+    <!-- Navbar -->
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg"
     >
@@ -32,9 +32,9 @@
           class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
         >
           <a
-            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+            class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
             href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >The Power Room: A Fake Gym</a
+            >The Power Room</a
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
@@ -48,7 +48,7 @@
           id="example-collapse-navbar"
         >
           <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <!--Icon 1-->
+            <!-- Icon 1 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -59,7 +59,7 @@
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
             </li>
-            <!--Icon 2-->
+            <!-- Icon 2 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -70,7 +70,7 @@
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
             </li>
-            <!--Icon 3-->
+            <!-- Icon 3 -->
             <li class="flex items-center">
               <a
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -78,7 +78,7 @@
                 ><i
                   class="text-orange-500 fab fa-linkedin text-lg leading-lg"
                 ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
+                ><span class="lg:hidden inline-block ml-2">Profile</span></a
               >
             </li>
           </ul>
@@ -103,15 +103,15 @@
             class="w-full h-full absolute opacity-75 bg-black"
           ></span>
         </div>
-        <div class="container relative mx-auto">
+        <div class="container relative mx-auto" data-aos="fade-in">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
+              <div>
                 <h1 class="text-white font-semibold text-5xl">
-                  Feel The <span class="text-orange-500">Burn</span>
+                  Feel The <span class="text-orange-500">Power</span>
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  Welcome to the Power Room. We are a fitness and training
+                  Welcome to The Power Room. We are a fitness and training
                   center that focuses on pushing you to your absolute limit.
                   Download our complete brochure to get started today!
                 </p>
@@ -142,21 +142,27 @@
         </div>
       </div>
 
-      <!--About Section-->
+      <!-- About Section -->
       <section id="about" class="relative py-20 bg-black text-white">
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-4/12 ml-auto mr-auto px-4"
+              data-aos="fade-right"
+            >
               <img
                 alt="..."
                 class="max-w-full rounded-lg shadow-lg"
                 src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
               />
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div
+              class="w-full md:w-5/12 ml-auto mr-auto px-4"
+              data-aos="fade-left"
+            >
               <div class="md:pr-12">
                 <small class="text-orange-500">About our gym</small>
-                <h3 class="text-4xl font-bold uppercase">Safe Body Buiding</h3>
+                <h3 class="text-4xl uppercase font-bold">Safe Body Building</h3>
                 <p class="mt-4 text-lg leading-relaxed">
                   The extension comes with three pre-built pages to help you get
                   started faster. You can change the text and images and you're
@@ -202,9 +208,7 @@
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-xl">
-                          3 professional trainers
-                        </h4>
+                        <h4 class="text-xl">3 professional trainers</h4>
                       </div>
                     </div>
                   </li>
@@ -215,23 +219,27 @@
         </div>
       </section>
 
-      <!-- Trainer Section -->
-
+      <!-- Trainers Section -->
       <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold uppercase">Meet Our Trainers</h2>
+              <h2 class="text-4xl font-semibold uppercase">
+                Meet Our Trainers
+              </h2>
               <p class="text-lg leading-relaxed m-4">
-                Our trainers are here to dedicate the time and effort that
-                you need to get in the best shape of your life!
+                Our trainers are are here to dedicate the time and effort that
+                you need to get in the best shape of your life
               </p>
             </div>
           </div>
           <!-- Trainer Card Wrapper -->
           <div class="flex flex-wrap">
             <!-- Card 1 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -240,7 +248,7 @@
                   style="max-width: 250px"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Mr. Rogers</h5>
+                  <h5 class="text-xl font-bold">Mr Rogers</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Neighborhood Watchman
                   </p>
@@ -248,7 +256,10 @@
               </div>
             </div>
             <!-- Card 2 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -265,7 +276,10 @@
               </div>
             </div>
             <!-- Card 3 -->
-            <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4">
+            <div
+              class="w-full md:w-4/12 lg:mb-0 mb-12 px-4"
+              data-aos="flip-right"
+            >
               <div class="px-6">
                 <img
                   alt="..."
@@ -286,7 +300,7 @@
       </section>
 
       <!-- Contact Header Section -->
-      <section class="pb-20 relative block bg-back text-white">
+      <section class="pb-20 relative block bg-black text-white">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px; transform: translateZ(0px)"
@@ -300,17 +314,17 @@
             x="0"
             y="0"
           >
-            <polygon
-              points="2560 0 2560 100 0 100"
-            ></polygon>
+            <polygon points="2560 0 2560 100 0 100"></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white uppercase">Contact Us</h2>
+              <h2 class="text-4xl font-semibold text-white uppercase">
+                Contact Us
+              </h2>
               <p class="text-lg leading-relaxed mt-4 mb-4">
-                Contact us to ask any questions, acquire a membership, talk to
+                Contact us to ask any questions, aquire a membership, talk to
                 our trainers or anything else
               </p>
             </div>
@@ -325,6 +339,7 @@
             <div class="w-full lg:w-6/12 px-4">
               <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                data-aos="fade-up-right"
               >
                 <div class="flex-auto p-5 lg:p-10 bg-orange-500 text-white">
                   <h4 class="text-2xl font-semibold">Want to work with us?</h4>
@@ -350,7 +365,7 @@
                       >Email</label
                     ><input
                       type="email"
-                      class="px-3 py-3 placeholder-gray-400  bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
                       placeholder="Email"
                       style="transition: all 0.15s ease 0s"
                     />
@@ -408,7 +423,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Follow us on social media!</h4>
+            <h4 class="text-3xl font-semibold">Follow us on social media</h4>
             <h5 class="text-lg mt-0 mb-2 text-gray-700">
               Find us on any of these platforms, we respond 1-2 business days.
             </h5>
@@ -422,13 +437,15 @@
                 class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-facebook-square text-orange-500"></i></button
+                <i
+                  class="flex fab fa-facebook-square text-orange-500"
+                ></i></button
               ><button
                 class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i class="flex fab fa-linkedin text-orange-500"></i></button
-              >
+                <i class="flex fab fa-linkedin text-orange-500"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -438,7 +455,7 @@
         >
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-sm text-gray-600 font-semibold py-1">
-              Copyright © The Power Room: A Fake Gym
+              Copyright © The Power Room
             </div>
           </div>
         </div>
